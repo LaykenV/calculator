@@ -1,0 +1,110 @@
+body {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calcbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: lightslategray;
+    height: 70%;
+    width: 25%;
+    gap: 10px;
+    border-radius: 22px;
+    border: solid black 2px;
+}
+
+.calcscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 90%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: solid black 2px;
+}
+
+#preview {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 3%;
+    font-size: xx-large;
+}
+
+#finalanswer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 9px;
+    font-size: xx-large;
+}
+
+.calcbottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 20px;
+    
+}
+
+.topbuttons {
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    padding: 3px;
+    flex: 1;
+}
+
+.clearbtn, .backspacebtn {
+    flex: 1;
+    border-radius: 8px;
+    border: solid black 2px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.clearbtn {
+    background-color: lightpink;
+}
+
+.backspacebtn {
+    background-color: lightseagreen;
+}
+
+.bottombuttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    width: 90%;
+    flex: 10;
+    align-items: center;
+    justify-content: stretch;
+    padding: 5px;
+}
+
+.numberbutton {
+    min-width: 23%;
+    min-height: 23%;
+    flex: 1;
+    border-radius: 8px;
+    border: solid black 2px;
+    font-size: xx-large;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
