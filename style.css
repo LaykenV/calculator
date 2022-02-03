@@ -29,6 +29,7 @@ body {
     margin-top: 20px;
     border-radius: 8px;
     border: solid black 2px;
+    height: 111px
 }
 
 #preview {
