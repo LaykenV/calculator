@@ -109,3 +109,9 @@ footer {
     font-size: large;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    .calcbody {
+        width: 300px;
+    }
+}
