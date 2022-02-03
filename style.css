@@ -108,7 +108,6 @@ footer {
     align-items: center;
     font-size: large;
     font-weight: bold;
-    background-color: lightgray;
 }
 
 @media only screen and (max-width: 800px) {
