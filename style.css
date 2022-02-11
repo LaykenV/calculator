@@ -110,6 +110,14 @@ footer {
     font-weight: bold;
 }
 
+.numberbutton:hover {
+    background-color: lightgray;
+}
+
+.numberbutton:active {
+    background-color: gray;
+}
+
 @media only screen and (max-width: 800px) {
     .calcbody {
         width: 300px;
