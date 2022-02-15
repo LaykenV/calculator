@@ -121,5 +121,10 @@ footer {
 @media only screen and (max-width: 800px) {
     .calcbody {
         width: 300px;
+        }
+
+    .numberbutton {
+        height: 15%;
+        width: 15%;
     }
 }
