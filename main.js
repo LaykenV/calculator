@@ -142,7 +142,7 @@ const operate = function(op, a, b) {
     a = parseFloat(a);
     b = parseFloat(b);
     if(op == "+") {
-        return sum = add(a, b)
+        return sum = add(a, b);
     }
     else if(op == "-") {
         return sum = (a - b);
