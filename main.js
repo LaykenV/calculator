@@ -159,7 +159,7 @@ function clear() {
     preview.textContent = "";
     answer.textContent = "";
     sum = 0;
-}
+};
 
 clearBtn.addEventListener("click", () => clear());
 
