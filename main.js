@@ -166,7 +166,7 @@ clearBtn.addEventListener("click", () => clear());
 function delte() {
    preview.textContent = preview.textContent.slice(0, (preview.textContent.length -1));
  
-}
+};
 
 backspaceBtn.addEventListener("click", () => delte());
 
