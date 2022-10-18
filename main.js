@@ -153,7 +153,7 @@ const operate = function(op, a, b) {
     else if(op == "/") {
         return sum = divide(a, b);
     }else{return "oops"};
-}
+};
 
 function clear() {
     preview.textContent = "";
